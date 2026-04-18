@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-KERNEL_DEFCONFIG=${KERNEL_DEFCONFIG:-gki_defconfig}
+KERNEL_DEFCONFIG=${KERNEL_DEFCONFIG:-dm1q_defconfig}
 CLANG_VERSION=${CLANG_VERSION:-clang-r547379}
 OUT_DIR=${OUT_DIR:-out}
 CLANG_DIR=${CLANG_DIR:-"$HOME/tools/google-clang"}
